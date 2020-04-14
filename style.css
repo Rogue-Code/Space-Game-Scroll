@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400;1,600&display=swap');
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	height: 1000vh;
+}
+
+.container {
+	width: 50vw;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: red;
+	position: relative;
+}
+
+.intro {
+
+}
+
+.intro h1 {
+	color: #FFFFFF;
+	font-size: 3em;
+	text-align: center;
+}
+
+.intro p {
+	float: right;
+	margin-right: 30px;
+}
+
+.social-media {
+	margin-left: 100px;
+	clear: right;
+}
+
+.social-media a {
+	font-size: 2em;
+	display: block;
+	/*This is used to un-stylize anchor tags*/
+	text-decoration: none;
+	outline: none;
+}
+
+.social-media span {
+	font-size: 0.5em;
+	margin: 0 0 15px 15px;
+}
+
+.scroll-up {
+	position: fixed;
+}
+.scroll-up h2 {
+	text-align: center;
+}
